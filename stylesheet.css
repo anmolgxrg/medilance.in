@@ -1,0 +1,151 @@
+*{
+	margin:0;
+	padding:0;
+} 
+
+.banner {
+   position: relative;
+}
+
+.logo {
+	position: absolute;
+	top: 32px;
+    left: 20px;
+    width: 20%;
+}
+
+.navmena {
+	    width: 60%;
+}
+
+.navmenu {
+	position: absolute;
+	top: 31px;
+	height: 38px;
+	width: 645px;
+	padding: 15px 0 0 0;
+    right: 15px;
+	background-color: white;
+	opacity:88%;
+	font-family: arial;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.navmenu ul{
+    width:100%;
+    float:left;
+}
+  
+.navmenu ul li{
+   width:14%;
+   float: left;
+   font-size: 17px;
+   font-weight: 600;
+   list-style: none;
+   margin:0 10px;
+}
+
+.blocks{
+	width: 100%;
+}
+
+.block1{
+	width:40%; 
+	margin: 24px 60px 0 82px; 
+	float: left; 
+	height:auto;
+	border-radius: 20px;
+	background-color:white;
+	padding-left:9px;
+	padding-right:9px;
+	color:#000000;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: justify;
+	font-family: arial;
+} 
+
+.block2{
+	width:40%; 
+	margin: 24px 0 0 14px; 
+	float: left; 
+	height:auto;
+	border-radius: 20px;
+	background-color:white;
+	padding-left:9px;
+	padding-right:9px;
+	color:#000000;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: justify;
+	font-family: arial;
+} 
+
+.footer{
+	height:450px; 
+	width:100%; 
+	background-color:#100725; 
+	color:#FFFFFF;
+	font-family: arial;
+	margin: 10px 0 0 0;
+} 
+
+.footerblocks{
+	width:43%; 
+	margin: 44px 0 0 17px; 
+	float: left; 
+	height:80px; 
+	width:40%;  
+	color:#FFFFFF;
+}
+
+.footerblocks ul{
+    float:left;
+}
+  
+.footerblocks ul li{
+   font-size: 17px;
+   font-weight: 600;
+   list-style: none;
+   margin:0 10px;
+}
+
+.conatinex {
+	width: 40%;
+	float: right;
+	margin-right: 15%;
+	font-family: arial;
+}
+
+.conatinex2 {
+	width: 40%;
+	float: left;
+	margin-left: 5%;
+}
+
+.a {
+  width: 380px;
+  height: 380px;
+  transform: rotate(30deg);
+  transition: width 2s, height 3s;
+}
+
+.a:hover {
+    width: 680px;
+    height: 380px;
+}
+
+.hr3 {
+    position: relative;
+	top: 20px;
+	width: 30%;
+	border: none;
+	height: 12px;
+	background: black;
+	margin-bottom: 50px;
+}
+
+.spacer { 
+		margin: 230px 0 0 0;
+}
