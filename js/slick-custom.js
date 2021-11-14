@@ -1,21 +1,16 @@
-
-
 (function ($) {
     // USE STRICT
     "use strict";
 
-        /*==================================================================
-        [ Slick1 ]*/
+        /*[ Slick1 ]*/
         $('.wrap-slick1').each(function(){
             var wrapSlick1 = $(this);
             var slick1 = $(this).find('.slick1');
 
-
             var itemSlick1 = $(slick1).find('.item-slick1');
             var layerSlick1 = $(slick1).find('.layer-slick1');
             var actionSlick1 = [];
-            
-
+         
             $(slick1).on('init', function(){
                 var layerCurrentItem = $(itemSlick1[0]).find('.layer-slick1');
 
@@ -34,7 +29,6 @@
                 }        
             });
 
-
             var showDot = false;
             if($(wrapSlick1).find('.wrap-slick1-dots').length > 0) {
                 showDot = true;
@@ -50,10 +44,6 @@
                 infinite: true,
                 autoplay: true,
                 autoplaySpeed: 6000,
-                arrows: true,
-                appendArrows: $(wrapSlick1),
-                prevArrow:'<button class="arrow-slick1 prev-slick1"><i class="zmdi zmdi-caret-left"></i></button>',
-                nextArrow:'<button class="arrow-slick1 next-slick1"><i class="zmdi zmdi-caret-right"></i></button>',
                 dots: showDot,
                 appendDots: $(wrapSlick1).find('.wrap-slick1-dots'),
                 dotsClass:'slick1-dots',
@@ -87,8 +77,7 @@
 
         });
 
-        /*==================================================================
-        [ Slick2 ]*/
+        /*[ Slick2 ]*/
         $('.wrap-slick2').each(function(){
             $(this).find('.slick2').slick({
               slidesToShow: 4,
@@ -96,10 +85,6 @@
               infinite: false,
               autoplay: false,
               autoplaySpeed: 6000,
-              arrows: true,
-              appendArrows: $(this),
-              prevArrow:'<button class="arrow-slick2 prev-slick2"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
-              nextArrow:'<button class="arrow-slick2 next-slick2"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',  
               responsive: [
                 {
                   breakpoint: 1200,
@@ -139,8 +124,7 @@
           $(nameTab).find('.slick2').slick('reinit');          
         });      
         
-        /*==================================================================
-        [ Slick3 ]*/
+        /*[ Slick3 ]*/
         $('.wrap-slick3').each(function(){
             $(this).find('.slick3').slick({
                 slidesToShow: 1,
@@ -149,12 +133,6 @@
                 infinite: true,
                 autoplay: false,
                 autoplaySpeed: 6000,
-
-                arrows: true,
-                appendArrows: $(this).find('.wrap-slick3-arrows'),
-                prevArrow:'<button class="arrow-slick3 prev-slick3"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
-                nextArrow:'<button class="arrow-slick3 next-slick3"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',
-
                 dots: true,
                 appendDots: $(this).find('.wrap-slick3-dots'),
                 dotsClass:'slick3-dots',
@@ -164,7 +142,6 @@
                 },  
             });
         });
-            
-                
+                            
 
 })(jQuery);
